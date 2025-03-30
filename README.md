@@ -1,9 +1,13 @@
 # README
+## Talia Betourney's CSPB3308 Lab 10 Submission
 
-This is the [Flask](http://flask.pocoo.org/) [quick start](http://flask.pocoo.org/docs/1.0/quickstart/#a-minimal-application) example for [Render](https://render.com).
+The app in this repo is deployed at https://talia-betourney-flask.onrender.com 
 
-The app in this repo is deployed at [https://flask.onrender.com](https://flask.onrender.com).
+## Routes present in application:
 
-## Deployment
-
-Follow the guide at https://render.com/docs/deploy-flask.
+- /  initial Hello World route
+- /db_test Which tests the database connection
+- /db_create Which creates the Basketball table
+- /db_insert Which inserts the provided information into the Basketball table
+- /db_select Which queries the data from Basketball and returns a formatted table of information
+- /db_drop Which drops the Basketball table
